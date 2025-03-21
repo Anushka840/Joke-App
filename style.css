@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f8ff;
+}
+#joke1{
+    /* margin-top: 10rem; */
+}
+.intro-content{
+    height: 23.5rem;
+    width: 35rem;
+    margin-left: 30rem;
+    margin-top: 10rem;
+    border-radius: 0 3rem;
+    border-style: solid;
+    border-image-width: 45px;
+    border-image-slice: 78;
+    border-image-source:url(https://img.freepik.com/premium-vector/emoticon-photo-frame-pattern-background-with-many-expressions_518759-265.jpg?semt=ais_hybrid);
+    background-color: white
+}
+.intro-page {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.intro-page h1 {
+    font-size: 3rem;
+    color: #110f0f;
+    margin-top: 3.3rem;
+    
+}
+.intro-page p {
+    font-size: 1.3rem;
+    color: #0b0808;
+    margin-bottom: 20px;
+    margin-top: 1.2rem;
+}
+
+.intro-page button {
+    font-size: 1.2rem;
+    /* background-color: #66692b; */
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: black;
+}
+/* 
+.intro-page button:hover {
+    background-color: #acb650;
+} */
+
+.tab {
+    height: 27rem;
+    width: 35rem;
+    margin-top: 9rem;
+    padding: 1rem;
+    margin-left: 30rem;
+    border-image-width: 45px;
+    border-image-slice: 75;
+    border-image-source:url(https://img.freepik.com/free-psd/3d-emoji-frame-isolated_23-2151171338.jpg);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#back{
+    margin-top: 4.5rem;
+    height: 3rem;
+    width: 5.5rem;
+    font-size: 1rem;
+    border-radius: 9%;
+    color: white;
+    font-family: cursive;
+    border-radius: none;
+    background-color: rgb(167, 28, 195);
+}
+
+#joke {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: rgb(14, 13, 13);
+    margin-top: 2rem;
+}
+
+#count {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: rgb(13, 11, 11);
+    margin-top: 2rem;
+}
+button {
+    margin-top: 2rem;
+    height: 3rem;
+    width: 5.5rem;
+    font-size: 1rem;
+    border-radius: 9%;
+    color: white;
+    font-family: cursive;
+    background-color:  rgb(167, 28, 195);
+    border: none;
+    /* position: fixed; */
+}
+
+button:hover {
+    background-color: rgb(167, 28, 195);
+}
+
+ button:last-of-type {
+    margin-top: 2rem;
+    background-color:rgb(167, 28, 195);
+}
+
+button:last-of-type:hover {
+    background-color: rgb(167, 28, 195);
+}
+

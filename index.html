@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <select id="joke1">
+        <option value = "">Programming</option>
+        <option value = "">Misc</option>
+        <option value = "">Dark</option>
+    </select> -->
+
+    <div id="intro-page" class="intro-page">
+        <div class="intro-content">
+            <h1>Welcome to Joke Generator!</h1>
+            <p>😂Get ready for a good laugh. Click below to start!😂</p>
+            <button onclick="startJokes()">Start</button>
+        </div>
+    </div>
+
+    <div id="joke-page" class="tab" style="display: none;">
+        <button onclick="getjoke()">Get Joke</button>
+        <h1 id="joke"></h1>
+        <p id="count"></p>
+        <button id="back" onclick="backToIntro()">Back</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
